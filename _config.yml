@@ -1,7 +1,7 @@
 # Site
-title:              "谭汐霏の破站"
-bio:                '一个普通的学生~'
-description:        "一个普通的学生~"
+title:              "蓝海服务器96333"
+bio:                ''
+description:        ""
 locale:             zh_cn
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -11,20 +11,20 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-bilibili:           2093454608
+bilibili:           
 facebook:           
 instagram:          
-github:             TanXifei
+github:             
 
 # personal
-location:           蒙德城
+location:           LanHai City
 phone:              
-email:              Tanxifei@outlook.com # change this to your email to receive free emails for your contact submissions via Slapform.com
+email:              # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
 background_image:   https://t.mwm.moe/ysz
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-slapform_thankyou_page: /thank-you
+slapform_thankyou_page: 
 
 defaults:
 - scope:
