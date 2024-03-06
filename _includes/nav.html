@@ -1,5 +1,6 @@
 <ul class="links">
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">主页</a></li>
+  <li class="{% if page.url contains '/search/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">通过编号搜索电梯</a></li>
   <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">全部电梯</a></li>
   <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">关于蓝海</a></li>
   <!-- <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Elements Reference</a></li> -->
