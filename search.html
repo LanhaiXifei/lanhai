@@ -1,10 +1,9 @@
-html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>十分现代化的搜索</title>
+    <title>十分现代化的电击搜索</title>
 </head>
 <body>
 
@@ -15,8 +14,7 @@ html
 
     <script>
         function redirectToArticle() {
-            var articleName = document.getElementById("articleName").value;
-            // 这里假设我们的文章URL格式是：'/articles/' + 文章名
+            var articleName = document.getElementById("articleName").value
             var articleUrl = '/blog/' + encodeURIComponent(articleName);
             window.location.href = articleUrl;
         }
