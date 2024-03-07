@@ -52,7 +52,17 @@ sitemap:
 							<article class="post featured">
 								<header class="major">
 									<h2><a href="#">{{site.title}}</a></h2>
-									<p>可在菜单“搜索”中输入编号跳转至对应电梯</p></a>
+									<h3>请在输入框输入欲查询的电梯编号:</h3>
+									<p>输入编号不存在或含有数字外的特殊字符会报404！</p><br></br>
+									<input type="text" id="articleName" placeholder="告诉我你要查找的电击编号…"><br></br>
+   									<button onclick="redirectToArticle()">查找电击</button>
+									<script>
+										function redirectToArticle() {
+											var articleName = document.getElementById("articleName").value
+											var articleUrl = '/blog/' + encodeURIComponent(articleName);
+											window.location.href = articleUrl;
+										}
+									</script>
 								</header>
 							</article>
 
