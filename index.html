@@ -55,13 +55,14 @@ sitemap:
 									<input type="text" id="articleName" placeholder="请输入欲查询的电梯编号…"><br>
    									<button onclick="redirectToArticle()">启动！</button>
 									<script>
-                                                                        <h3>当然，你也可以在下方的“电梯列表”查找:)</h3>
+                                                                        
 										function redirectToArticle() {
 											var articleName = document.getElementById("articleName").value
 											var articleUrl = '/blog/' + encodeURIComponent(articleName);
 											window.location.href = articleUrl;
 										}
 									</script>
+									<h3>当然，你也可以在下方的“电梯列表”查找:)</h3>
 								</header>
 							</article>
 
