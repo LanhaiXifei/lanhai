@@ -53,9 +53,9 @@ sitemap:
 								<header class="major">
 									<h2><a href="##">要通过六位编号搜索？</a></h2>
 									<input type="text" id="articleName" placeholder="请输入欲查询的电梯编号…"><br>
-   									<button onclick="redirectToArticle()">查找</button>
+   									<button onclick="redirectToArticle()">启动！</button>
 									<script>
-                                                                        <h3>当然，你也可以在下方的“全部电梯”页面内手动查找:)</h3>
+                                                                        <h3>当然，你也可以在下方的“电梯列表”查找:)</h3>
 										function redirectToArticle() {
 											var articleName = document.getElementById("articleName").value
 											var articleUrl = '/blog/' + encodeURIComponent(articleName);
