@@ -30,7 +30,21 @@
 
 				<!-- Main -->
 				<div id="main">
+                                                <!-- Featured Post -->
+                                                        <article class="post featured">
+                                                                <header class="major">
+                                                                        <input type="text" id="articleName" placeholder="输入编号快速查找！"><br>
+                                                                           <button onclick="redirectToArticle()">Go！</button>
+                                                                        <script>
 
+                                                                                function redirectToArticle() {
+                                                                                        var articleName = document.getElementById("articleName").value
+                                                                                        var articleUrl = '/blog/' + encodeURIComponent(articleName);
+                                                                                        window.location.href = articleUrl;
+                                                                                }
+                                                                        </script>
+                                                                </header>
+							</article>
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
