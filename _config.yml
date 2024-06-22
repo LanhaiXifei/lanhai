@@ -22,7 +22,7 @@ phone:
 email:              # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
-background_image: "images/pic01.jpg"
+background_image: https://pic2.ziyuan.wang/user/tanxifei/2024/06/Image_1719077722933_ab9c3919df78a.jpg
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
 slapform_thankyou_page: 
 
